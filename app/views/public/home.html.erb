@@ -2,7 +2,7 @@
   <h2>welcome <%= current_user.email %></h2>
   <p>Lorem ipsum dolor sit amet, consecrate adipisicing elit. Beatae illo ipsam, itaque maxime nobis non soluta tenetur
     veniam voluptate! Esse labore pariatur quis soluta suscipit. Adipisci beatae fugit necessitatibus perferendis!</p>
-  <p>You are <%= current_user.role %></p>
+  <p>You are good <%= current_user.role %> Greate</p>
   <%= link_to "sign out", destroy_user_session_path, 'data-turbo-method': :delete %>
 <% else %>
   <%= link_to "sign up", new_user_registration_path %>
